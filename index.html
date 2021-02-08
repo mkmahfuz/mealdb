@@ -15,17 +15,19 @@
         </div>
         <div class="content-body">            
             <div class="search-box">
-                <input id="search-input" type="text" placeholder="search by food name">
+                <input id="search-input" type="text" placeholder="search by meal name">
                 <button id="search-submit" type="submit">Search</button>
             </div>
-            <div class="search-output">
+            <div id="search-output">
                 <div id="search-header">
-                    <h3>Search result : --- Food Images and Names :</h3>
+                    <h3>Search result : --- Meal Images and Names (<small>click image or name to get the details)</small> :</h3>
                 </div>
                 <div id="search-result">
-                    <p>search result will be here</p>
+                    <!-- <p>search result will be here</p> -->
+                    <!-- <button id="meal-details" type="submit">Details</button> -->
 
                 </div>
+                <div id="result-error"></div>
 
             </div>
         </div>        
@@ -33,6 +35,12 @@
     <div class="footer">
         <p>All rights reserved Hero3 food store, na khaile postaben &copy 2021</p>
     </div>
+    <script>
+        
+        //const searchSubmit = document.getElementById('search-submit');
+       // searchSubmit.addEventListener("click",function(){console.log(searchInput.value);});
+        //const searchInput = document.getElementById("search-input");
+    </script>
     <script src="mealdb.js"></script>
 </body>
 </html>

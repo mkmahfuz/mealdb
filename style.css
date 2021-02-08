@@ -24,10 +24,30 @@ margin-top: 20px;
     border-radius: 5px;
     padding: 10px;
 }
-.grid-3{
+#search-result{
     display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
-    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap : 10px;
+    justify-content: space-around;
+}
+.meal-container{
+    padding : 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.meal-image img {
+    border: 0px solid white;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;    
+    object-fit: cover;
+  }
+.meal-name{
+    background-color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    height: 50px;
+    padding-top: 10px;
 }
 .footer{
     text-align: center;
