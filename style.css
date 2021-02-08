@@ -15,20 +15,37 @@
 margin-top: 20px;
 }
 .search-box{
-    width: 400px;
+    width: 250px;
     margin: auto;
 }
-.search-output{
-    margin-top: 30px;
-    border: 1px solid burlywood;
-    border-radius: 5px;
-    padding: 10px;
+#initial-message{
+    border: 2px solid lightslategray;
+    margin-top: 70px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    
 }
 #search-result{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap : 10px;
     justify-content: space-around;
+}
+#search-error{
+    width: 450px;
+    margin:auto;    
+    margin-top: 100px;
+    height: 400px;
+    color: lightsalmon;
+    text-align: center;
+    
+}
+#search-header{
+    color: white;
+    width : 130px;
+    margin:auto;
+
 }
 .meal-container{
     padding : 40px;
@@ -48,6 +65,10 @@ margin-top: 20px;
     font-weight: bold;
     height: 50px;
     padding-top: 10px;
+}
+#meal-ingredients-list{
+    width:300px;
+    margin:auto;
 }
 .footer{
     text-align: center;
